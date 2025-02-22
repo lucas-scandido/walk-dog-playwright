@@ -2,12 +2,13 @@ import { test, expect } from '@playwright/test';
 
 test.describe('Home Page - Walkdog', () => {
   test('Should be displayed the home page elements', async ({ page }) => {
-    await test.step('Acessar a página inicial', async () => {
+    await test.step('Access the home page', async () => {
       await page.goto('/');
     });
 
     await test.step('Validate if the logo is visible', async () => {
       const logo = page.getByRole('img', { name: 'Walkdog' });
+      
       await expect(logo).toBeVisible();
     });
 
