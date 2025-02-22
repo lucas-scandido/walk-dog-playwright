@@ -1,5 +1,5 @@
 # WalkDog 🦮 - Automated Tests
-E2E Test Automation Project for the application **[WalkDog](https://walkdog.vercel.app)** using **Playwright** 🎭.
+E2E Test Automation Project for the application **[WalkDog](https://walkdog.vercel.app)** using **Playwright** with **TypeScript**.
 
 ## Prerequisites
 1. Versão do **`node`** `>=20.17.0`
@@ -38,7 +38,8 @@ The project structure was developed based on documentation: [Best Practices](htt
 - **Folder Structure:**
 ```                                             
 ├── tests/                             # Test Suites
-    └── home-page.spec.ts/             # E2E testing to validate home page elements            
+    └── home-page.spec.ts/             # E2E testing to validate home page elements
+    └── signup.spec.ts/                # E2E test for registering new Dog Walkers             
 ├── .gitignore                         # Files and folders should be ignored by Git
 ├── package.json                       # Project dependency and script manager                        
 ├── playwright.config.ts               # Global settings for Playwright
