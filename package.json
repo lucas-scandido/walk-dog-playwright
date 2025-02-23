@@ -7,5 +7,13 @@
     "@playwright/test": "^1.50.1",
     "@types/node": "^22.13.5"
   },
-  "scripts": {}
+  "scripts": {
+    "test:run": "playwright test",
+    "test:open": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:generate": "playwright codegen https://walkdog.vercel.app"
+  },
+  "dependencies": {
+    "faker-br": "^0.4.1"
+  }
 }
