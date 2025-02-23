@@ -1,5 +1,5 @@
 import { test } from '@playwright/test';
-import { Pages } from '../pages/pages';
+import { Pages } from '../../pages/pages';
 
 test.describe('Home Page - Walkdog', () => {
   test('Validate home page elements', async ({ page }) => {
