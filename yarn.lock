@@ -16,6 +16,11 @@
   dependencies:
     undici-types "~6.20.0"
 
+faker-br@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/faker-br/-/faker-br-0.4.1.tgz#e7e90614ccb4f857f6b8c1aefc678f252c43e197"
+  integrity sha512-uTAynWKxq9pA9TV5/AilYxjwxLIDyXDww1r7hsoADFYTdDXoBpP9WOz0PvcDxF+ya7cIX08VOAN2n2dDaRtVkQ==
+
 fsevents@2.3.2:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
