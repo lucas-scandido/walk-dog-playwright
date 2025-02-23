@@ -2,9 +2,9 @@
 E2E Test Automation Project for the application **[WalkDog](https://walkdog.vercel.app)** using **Playwright** with **TypeScript**.
 
 ## Prerequisites
-1. Versão do **[node](https://nodejs.org/pt/download)** `>=20.17.0`
-2. Versão do **[yarn](https://yarnpkg.com/getting-started/install)** `>=1.22.22 / 10.8.3`
-3. Versão do **[playwright](https://playwright.dev/docs/intro#installing-playwright)** `>=1.50.1`
+1. **[Node](https://nodejs.org/pt/download)** version `>=20.17.0`
+2. **[Yarn](https://yarnpkg.com/getting-started/install)** version `>=1.22.22 / 10.8.3`
+3. **[Playwright](https://playwright.dev/docs/intro#installing-playwright)** version `>=1.50.1`
 
 ## Installation
 **1. Clone the repository:**
